@@ -27,7 +27,7 @@ const myNetwork = new Network({
 const trainer = new Trainer(myNetwork);
 trainer.train(trainingSet, {
     rate: .2,
-    iterations: 50,
+    iterations: 60,
     error: .05,
     shuffle: true,
     log: 1,
