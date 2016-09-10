@@ -27,8 +27,8 @@ const myNetwork = new Network({
 const trainer = new Trainer(myNetwork);
 trainer.train(trainingSet, {
     rate: .2,
-    iterations: 20,
-    error: .1,
+    iterations: 50,
+    error: .05,
     shuffle: true,
     log: 1,
     cost: Trainer.cost.CROSS_ENTROPY
